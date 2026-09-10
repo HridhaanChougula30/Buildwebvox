@@ -23,8 +23,11 @@ body {
   background-color: #030712;
   color: #f9fafb;
   overflow-x: hidden;
-  selection-background-color: #3b82f6;
-  selection-color: #ffffff;
+}
+
+::selection {
+  background-color: #3b82f6;
+  color: #ffffff;
 }
 
 /* Custom Scrollbar */
@@ -63,19 +66,25 @@ body {
 .text-gradient {
   background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 50%, #94a3b8 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .text-gradient-primary {
   background: linear-gradient(135deg, #60a5fa 0%, #818cf8 50%, #c084fc 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .text-gradient-cyan {
   background: linear-gradient(135deg, #38bdf8 0%, #22d3ee 50%, #34d399 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /* Cyber glow borders */
