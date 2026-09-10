@@ -3,20 +3,25 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Buildwebvox — AI Voice Agents & Premium Websites',
-  description: 'Buildwebvox builds AI voice agents, business automation and premium websites for companies, offices, clinics, hospitals, restaurants, shops, hotels, schools, real estate businesses and more.',
+  description: 'Buildwebvox, founded by Hridhaan Chougula, builds AI voice agents, business automation and premium websites for companies, offices, clinics, hospitals, restaurants, shops, hotels, schools, real estate businesses and more.',
   keywords: [
     'AI Voice Agents',
     'Voice AI Automation',
     'Premium Website Development',
     'Business Automation',
     'AI Receptionist',
-    'Custom AI Workflow',
-    'Buildwebvox'
+    'Hridhaan Chougula',
+    'Founder Hridhaan Chougula',
+    'Buildwebvox',
+    'Hridhaan Chougula Buildwebvox'
   ],
-  authors: [{ name: 'Buildwebvox', url: 'https://buildwebvox.com' }],
+  authors: [
+    { name: 'Hridhaan Chougula', url: 'https://buildwebvox.com' },
+    { name: 'Buildwebvox', url: 'https://buildwebvox.com' }
+  ],
   openGraph: {
-    title: 'Buildwebvox — AI Voice Agents & Premium Websites',
-    description: 'Voices You Build, Websites You Trust. Custom AI voice agents and premium websites engineered for modern businesses.',
+    title: 'Buildwebvox — AI Voice Agents & Premium Websites by Hridhaan Chougula',
+    description: 'Voices You Build, Websites You Trust. Custom AI voice agents and premium websites engineered for modern businesses, founded by Hridhaan Chougula.',
     type: 'website',
   },
 };
